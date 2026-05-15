@@ -24,7 +24,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://fake-job-detection-system-roo9.onrender.com/predict",
+        "https://fake-job-detection-system-roo9.onrender.com/predict",
         formData
       );
 
