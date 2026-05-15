@@ -3,7 +3,7 @@ numpy
 scikit-learn
 nltk
 xgboost
-flask
+fastapi
+uvicorn
+python-multipart
 joblib
-matplotlib
-seaborn
