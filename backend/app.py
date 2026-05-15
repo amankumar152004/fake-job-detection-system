@@ -2,6 +2,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+import nltk
+
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 import joblib
 import re
 
